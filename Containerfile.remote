@@ -1,0 +1,4 @@
+FROM registry.access.redhat.com/ubi8/go-toolset
+ENV GOBIN=$APP_ROOT/bin
+RUN go get github.com/vbatts/go-mtree/cmd/gomtree
+CMD gomtree --help

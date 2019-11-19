@@ -1,0 +1,6 @@
+FROM registry.access.redhat.com/ubi8/go-toolset
+ENV GOPATH=$APP_ROOT
+ENV GOBIN=$APP_ROOT/bin
+COPY . $GOPATH/src/helloworld/
+RUN go install helloworld
+CMD helloworld
