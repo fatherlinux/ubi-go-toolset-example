@@ -1,7 +1,7 @@
 # Preparation for All Examples
 
 Clone this repository:
-`https://github.com/fatherlinux/ubi-go-toolset-example.git`
+`git clone https://github.com/fatherlinux/ubi-go-toolset-example.git`
 
 Change directories:
 `cd ubi-go-toolset-example`
