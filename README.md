@@ -32,4 +32,12 @@ Output:
 
 
 # Multi-Stage Example
-TBD
+
+Build:
+`podman build -t hello-world-multi -f Containerfile.remote`
+
+Run:
+`podman run -it --rm hello-world-multi`
+
+Output:
+`hello world`
