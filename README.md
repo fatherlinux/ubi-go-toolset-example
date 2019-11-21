@@ -34,7 +34,7 @@ Output:
 # Multi-Stage Example
 
 Build:
-`podman build -t hello-world-multi -f Containerfile.remote`
+`podman build -t hello-world-multi -f Containerfile.multi-stage`
 
 Run:
 `podman run -it --rm hello-world-multi`
